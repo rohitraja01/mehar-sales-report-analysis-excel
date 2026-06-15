@@ -184,11 +184,12 @@ Together these channels contribute approximately **80% of total sales**.
 
 ### Dashboard Overview
 
-![Dashboard Overview](Images/dashboard1.png)
+![Dashboard Overview](dashboard/dashboard1.png)
 
 ### Filtered Dashboard Analysis
 
-![Filtered Dashboard Analysis](Images/dashboard2.png)
+![Filtered Dashboard Analysis](dashboard/dashboard2.png)
+
 ---
 
 ## 🚀 How to Run This Project
