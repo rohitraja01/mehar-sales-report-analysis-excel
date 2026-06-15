@@ -183,11 +183,11 @@ Together these channels contribute approximately **80% of total sales**.
 
 ### Dashboard Overview
 
-![Dashboard Overview](Images/dashboard1.png)
+![Dashboard Overview]("C:\Users\rohit\OneDrive\Desktop\Project\Excel Project\Mehar store Analysis annual report 2025\dashboard\dashbaord1.png")
 
 ### Filtered Dashboard Analysis
 
-![Filtered Dashboard Analysis](Images/dashboard2.png)
+![Filtered Dashboard Analysis]("C:\Users\rohit\OneDrive\Desktop\Project\Excel Project\Mehar store Analysis annual report 2025\dashboard\dashbaord2.png")
 
 ---
 
@@ -279,8 +279,6 @@ Potential future enhancements include:
 ## 👨‍💻 Author
 
 **Rohit Raja**
-
-Data Analyst | Excel Dashboard Developer
 
 ---
 
