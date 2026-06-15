@@ -81,17 +81,14 @@ The dataset contains transaction-level sales records including:
 ## 📂 Project Structure
 
 ```text
-Mehar-Store-Annual-Sales-Report-2025/
-│
-├── Images/
-│   ├── dashboard1.png
-│   └── dashboard2.png
+mehar-sales-report-analysis-excel/
 │
 ├── Mehar Store Data Analysis.xlsx
-│
-├── README.md
-│
-└── .gitignore
+├── dashboard/
+│   ├── dashboard1.png
+│   └── dashboard2.png
+├── .gitignore
+└── README.md
 ```
 
 ---
