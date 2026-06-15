@@ -1,46 +1,55 @@
-
-# Mehar Store Annual Sales Report 2025
+# 📊 Mehar Store Annual Sales Report 2025
 
 An interactive Excel Dashboard built to analyze customer behavior, sales performance, top-performing states, age groups, and sales channels to generate actionable business insights for Mehar Store.
 
+---
 
 ## 📌 Table of Contents
-- <a href="#overview">Overview</a>
-- <a href="#business-problem">Business Problem</a>
-- <a href="#dataset">Dataset</a>
-- <a href="#tools--technologies">Tools & Technologies</a>
-- <a href="#project-structure">Project Structure</a>
-- <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
-- <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
-- <a href="#research-questions--key-findings">Research Questions & Key Findings</a>
-- <a href="#dashboard">Dashboard</a>
-- <a href="#how-to-run-this-project">How to Run This Project</a>
-- <a href="#final-recommendations">Final Recommendations</a>
-- <a href="#author--contact">Author & Contact</a>
+
+- [Overview](#-overview)
+- [Business Problem](#-business-problem)
+- [Dataset](#-dataset)
+- [Tools & Technologies](#️-tools--technologies)
+- [Project Structure](#-project-structure)
+- [Data Cleaning & Preparation](#-data-cleaning--preparation)
+- [Key Business Insights](#-key-business-insights)
+- [Dashboard Preview](#-dashboard-preview)
+- [How to Run This Project](#-how-to-run-this-project)
+- [Results & Conclusion](#-results--conclusion)
+- [Future Work](#-future-work)
+- [Author](#-author)
+- [Contact](#-contact)
 
 ---
-<h2><a class="anchor" id="overview"></a>Overview</h2>
 
-An interactive Excel Dashboard built to analyze customer behavior, sales performance, top-performing states, age groups, and sales channels to generate actionable business insights for Mehar Store.
+## 📖 Overview
 
-The primary objective is to convert raw business data into actionable insights that help management identify growth opportunities, optimize marketing efforts, and improve overall sales performance.
----
-<h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
+The Mehar Store Annual Sales Report 2025 is an Excel-based Business Intelligence Dashboard developed to analyze customer purchasing behavior, sales performance, top-performing states, age demographics, and sales channels.
 
-Mehar Store generates a large volume of sales transactions through multiple sales channels, product categories, customer segments, and geographic regions. However, the raw sales data alone does not provide clear insights into customer purchasing behavior, top-performing markets, or the factors driving revenue growth.
-
-The business needs to identify:
-
-Which customer segment contributes the most to sales.
-Which age group and gender generate the highest revenue.
-Which states are the most profitable.
-Which sales channels drive the majority of orders and revenue.
-How customer behavior can be leveraged to improve future sales performance.
+The primary objective of this project is to transform raw sales data into meaningful insights that help management make data-driven decisions, improve marketing strategies, and increase overall business revenue.
 
 ---
-<h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
-The dataset contains transaction-level sales records from Mehar Store, including:
+## 🎯 Business Problem
+
+Mehar Store generates sales through multiple product categories, customer segments, sales channels, and geographic regions. However, raw transactional data alone does not provide clear visibility into customer purchasing patterns and revenue drivers.
+
+The business needed answers to the following questions:
+
+- Which customer segment contributes the most to overall sales?
+- Which age group generates the highest revenue?
+- Which gender purchases more frequently?
+- Which states contribute the highest sales?
+- Which sales channels drive the majority of revenue?
+- How can Mehar Store improve future sales performance?
+
+This dashboard was developed to answer these business questions and support strategic decision-making.
+
+---
+
+## 📂 Dataset
+
+The dataset contains transaction-level sales records including:
 
 - Order ID
 - Customer ID
@@ -54,20 +63,25 @@ The dataset contains transaction-level sales records from Mehar Store, including
 - Sales Channel
 - State Information
 
-<h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
+---
+
+## 🛠️ Tools & Technologies
 
 | Tool | Purpose |
-|------|---------|
-| Microsoft Excel | Core platform |
-| Pivot Tables | Data summarization |
-| Pivot Charts | Data visualization |
-| Slicers | Interactive filtering |
-| Data Cleaning | Data quality |
-| Dashboard Design | Reporting |
----
-<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
+|--------|---------|
+| Microsoft Excel | Data Analysis & Dashboard Creation |
+| Pivot Tables | Data Aggregation |
+| Pivot Charts | Data Visualization |
+| Slicers | Interactive Filtering |
+| Data Cleaning | Data Preparation |
+| Dashboard Design | Business Reporting |
 
-Mehar-store-Analysis-annual-report-2025/
+---
+
+## 📂 Project Structure
+
+```text
+Mehar-Store-Annual-Sales-Report-2025/
 │
 ├── Images/
 │   ├── dashboard1.png
@@ -75,159 +89,209 @@ Mehar-store-Analysis-annual-report-2025/
 │
 ├── Mehar Store Data Analysis.xlsx
 │
-└── README.md
+├── README.md
+│
+└── .gitignore
 ```
 
-### 1. Data Cleaning
-- Removed inconsistencies and duplicate records.
-- Standardized categorical values.
-- Verified data quality and completeness.
+---
 
-### 2. Data Transformation
-- Created age-group classifications.
-- Organized sales metrics using Pivot Tables.
-- Prepared summarized datasets for visualization.
+## 🧹 Data Cleaning & Preparation
 
-### 3. Dashboard Development
+### Data Cleaning
 
-Created interactive visualizations for:
+- Removed duplicate records
+- Standardized categorical values
+- Checked data consistency
+- Handled missing values where required
+
+### Data Transformation
+
+- Created Age Group categories
+- Organized sales metrics using Pivot Tables
+- Generated summary tables for reporting
+
+### Dashboard Development
+
+Built interactive visualizations for:
+
 - Orders vs Sales Analysis
-- Gender-wise Sales Comparison
-- Age Group Analysis
+- Men vs Women Sales Analysis
 - Order Status Distribution
-- State-wise Revenue Analysis
-- Sales Channel Performance
+- Age vs Gender Analysis
+- Top 5 States Analysis
+- Channel-wise Sales Performance
 
-### 4. Interactive Reporting
-- Added slicers and filters for dynamic analysis.
-- Enabled easy exploration of business metrics.
+### Interactive Features
 
----
-
-<h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
-
-1. Download or clone this repository.
-2. Open the Excel workbook in Microsoft Excel (2016 or later recommended).
-3. Enable editing if prompted.
-4. Navigate to the **Dashboard** worksheet.
-5. Use the available slicers and filters to interact with the dashboard.
-6. Explore sales trends and business insights.
-<h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
-
+- Slicers for Product Category
+- Slicers for Month Selection
+- Slicers for Sales Channel
+- Dynamic Dashboard Filtering
 
 ---
-<h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
 ## 📊 Key Business Insights
 
 ### 👩 Gender-wise Analysis
+
 - Women customers contribute approximately **65% of total sales**.
-- Female customers are more likely to purchase products compared to male customers.
+- Female customers purchase significantly more products compared to male customers.
+
+### 👥 Age Group Analysis
+
+- Adult customers aged **30–49 years** contribute the highest share of revenue.
+- This segment accounts for approximately **50% of total sales**.
 
 ### 🌍 State-wise Analysis
 
-The top three revenue-generating states are:
+The top-performing states are:
 
-1. **Maharashtra**
-2. **Karnataka**
-3. **Uttar Pradesh**
+1. Maharashtra
+2. Karnataka
+3. Uttar Pradesh
 
-These states contribute approximately **35% of total sales**.
-
-### 👥 Age Group Analysis
-- The **Adult Age Group (30–49 years)** contributes the highest share of sales.
-- This customer segment accounts for nearly **50% of total purchases**.
+These three states collectively contribute approximately **35% of total sales**.
 
 ### 🛒 Sales Channel Analysis
 
 The highest-performing sales channels are:
 
-| Rank | Channel | Contribution |
-|------|---------|-------------|
-| 1 | Amazon | ~80% combined |
-| 2 | Flipkart | ~80% combined |
-| 3 | Myntra | ~80% combined |
+- Amazon
+- Flipkart
+- Myntra
+
+Together these channels contribute approximately **80% of total sales**.
 
 ---
 
 ## 📈 Dashboard Features
 
 | Feature | Description |
-|---------|-------------|
-| ✅ Orders vs Sales | Monthly trend analysis |
-| ✅ Men vs Women | Gender-wise sales comparison |
-| ✅ Age Group | Performance by age segment |
+|----------|-------------|
+| ✅ Orders vs Sales | Sales trend analysis |
+| ✅ Men vs Women | Gender-wise comparison |
 | ✅ Order Status | Delivery and return breakdown |
-| ✅ Top States | State-wise revenue distribution |
-| ✅ Sales Channels | Channel contribution analysis |
-| ✅ Slicers & Filters | Interactive dynamic filtering |
+| ✅ Age vs Gender | Customer demographic analysis |
+| ✅ Top States | Revenue contribution by state |
+| ✅ Sales Channels | Channel performance analysis |
+| ✅ Interactive Slicers | Dynamic dashboard filtering |
 
 ---
 
-##  Dashboard Preview
+## 📊 Dashboard Preview
 
-![Dashboard Preview](Dashboard%20Screenshot/Dashboard.png)
+### Dashboard Overview
 
----##  Results & Conclusion
+![Dashboard Overview](Images/dashboard1.png)
 
-The dashboard successfully transformed raw sales data into meaningful business insights.
+### Filtered Dashboard Analysis
+
+![Filtered Dashboard Analysis](Images/dashboard2.png)
+
+---
+
+## 🚀 How to Run This Project
+
+### Step 1
+
+Clone the repository:
+
+```bash
+git clone https://github.com/rohitraja01/mehar-sales-report-analysis-excel.git
+```
+
+### Step 2
+
+Open the Excel workbook:
+
+```text
+Mehar Store Data Analysis.xlsx
+```
+
+### Step 3
+
+Enable Editing if prompted.
+
+### Step 4
+
+Navigate to the Dashboard sheet.
+
+### Step 5
+
+Use slicers and filters to explore the dashboard interactively.
+
+---
+
+## 📌 Results & Conclusion
+
+The dashboard successfully transformed raw sales data into actionable business insights.
 
 ### Key Findings
 
--  **Women customers** are the primary contributors to revenue.
--  Customers aged **30–49 years** generate the highest sales.
--  **Maharashtra, Karnataka, and Uttar Pradesh** are the top-performing states.
--  **Amazon, Flipkart, and Myntra** drive the majority of sales.
+- Women customers are the primary contributors to sales revenue.
+- Customers aged 30–49 years generate the highest sales.
+- Maharashtra, Karnataka, and Uttar Pradesh are the top-performing states.
+- Amazon, Flipkart, and Myntra drive the majority of revenue.
 
-###  Final Business Recommendation
+### Final Business Recommendation
 
-To improve Mehar Store's future sales performance, focus on targeting:
+To improve Mehar Store's future sales performance, focus marketing efforts on:
 
-**Target Audience:**
+#### 🎯 Target Audience
+
 - Women customers
-- Age group: **30–49 years**
-- Located in **Maharashtra, Karnataka, and Uttar Pradesh**
+- Age Group: 30–49 years
+- Maharashtra
+- Karnataka
+- Uttar Pradesh
 
-**Marketing Strategy:**
+#### 📢 Marketing Strategy
+
 - Personalized advertisements
-- Promotional offers
+- Promotional campaigns
 - Discount coupons
+- Seasonal offers
 
-**Preferred Channels:**
+#### 🛒 Preferred Channels
+
 - Amazon
 - Flipkart
 - Myntra
 
-By targeting this high-value customer segment through the most effective sales channels, Mehar Store can improve customer engagement, increase conversion rates, and maximize overall revenue growth.
+By targeting this high-value customer segment through the most effective sales channels, Mehar Store can improve customer engagement, increase conversions, and maximize overall revenue growth.
 
 ---
 
-##  Future Work
+## 🔮 Future Work
 
-Potential enhancements include:
+Potential future enhancements include:
 
-- [ ] Power BI Dashboard Version
-- [ ] Sales Forecasting Models
-- [ ] Customer Segmentation Analysis
-- [ ] Automated Reporting with Power Query
-- [ ] KPI Monitoring Dashboard
-- [ ] Real-Time Sales Analytics
+- Power BI Dashboard Version
+- Sales Forecasting Models
+- Customer Segmentation Analysis
+- Automated Reporting with Power Query
+- KPI Monitoring Dashboard
+- Real-Time Sales Analytics
 
 ---
 
-##  Author
+## 👨‍💻 Author
 
 **Rohit Raja**
 
+Data Analyst | Excel Dashboard Developer
 
 ---
 
-##  Contact
+## 📬 Contact
 
-📧 **Email:** [rohitkhan0735@gmail.com](mailto:rohitkhan0735@gmail.com)
+📧 Email: rohitkhan0735@gmail.com
 
-🔗 **LinkedIn:** [linkedin.com/in/rohitraja01](https://www.linkedin.com/in/rohitraja01/)
+🔗 LinkedIn: https://www.linkedin.com/in/rohitraja01/
 
-🔗 **GitHub:** [github.com/RohitRaja01](https://github.com/RohitRaja01)
+🔗 GitHub: https://github.com/rohitraja01
 
 ---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
